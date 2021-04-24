@@ -1,0 +1,22 @@
+header{
+    background-image: url('./pattern.png');
+    display: flex;
+    height: 150px;
+}
+img{
+    margin: 1%;
+    height: 120px;
+    border-radius: 90px;
+    border: 6px solid rgb(134, 76, 0);
+}
+.main-menu{
+    margin-left: auto;
+    display: flex;
+    width: 35%;
+}
+
+a{
+    padding: 3%;
+    color: #000;
+    text-decoration: none;
+}
