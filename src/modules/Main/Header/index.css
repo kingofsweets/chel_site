@@ -1,22 +1,40 @@
 header{
+    width: 100%;
     background-image: url('./pattern.png');
     display: flex;
     height: 150px;
 }
 img{
     margin: 1%;
-    height: 120px;
+    height: 60%;
     border-radius: 90px;
     border: 6px solid rgb(134, 76, 0);
 }
 .main-menu{
+    height: 30%;
+    margin-top: 5%;
     margin-left: auto;
     display: flex;
-    width: 35%;
+    width: 37%;
 }
 
 a{
-    padding: 3%;
+    background-color: rgba(255, 250, 250, 0.616);
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 20%;
+    margin-left: 1%;
+    padding: 2%;
     color: #000;
     text-decoration: none;
+    transition: all 0.5s ;
+}
+a:hover{
+    background-color: snow;
+}
+header h1{
+    padding: 1%;
+    height: 30%;
+    background-color: snow;
+    border-radius: 20%;
 }
