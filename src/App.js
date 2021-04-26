@@ -10,6 +10,9 @@ import NewsProjects from './modules/Main/NewsProjects';
 import OtherRequests from './modules/Main/OtherRequests';
 import Pets from './modules/Main/Pets';
 import { createBrowserHistory } from "history";
+import {Post} from './modules/Main/Home/News/Post/post';
+import NewsMain from './modules/Main/Home/News/news';
+import {Pet} from './modules/Main/Pets/Pet/pet'
 
 const customHistory = createBrowserHistory();
 
@@ -21,14 +24,17 @@ function App() {
       <Header/>
         <Switch>
           <Route path = '/' render= {() => <Home/>} exact />
+          <Route path = '/news/:number' render= {() => <Post/>} />
+          <Route path = '/pets/:number' render= {() => <Pet/>} />
+          <Route path = '/news' render= {() => <NewsMain/>} exact />
           <Route path = '/connect' render= {() => <Connect/>} />
           <Route path = '/feedback' render= {() => <FeedBack/>} />
           <Route path = '/newsprojects' render= {() => <NewsProjects/>} />
           <Route path = '/other' render= {() => <OtherRequests/>} />
           <Route path = '/pets' render= {() => <Pets/>} />
         </Switch>
+        <Footer/>
       </BrowserRouter>
-      <Footer/>
     </>
   );
 }

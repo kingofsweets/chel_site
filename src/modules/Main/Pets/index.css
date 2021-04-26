@@ -1,0 +1,36 @@
+.main-pets{
+    justify-content: center;
+
+    height: 90vh;
+    margin: 1%;
+    display: flex;
+}
+.pets{
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 3%;
+}
+.pet{
+    border-radius: 15%;
+    border: 3px solid #d3c5ca;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e7d8d8;
+}
+.pet img{
+    border: 1px solid black;
+    border-radius: 15%;
+    max-width: 90%;
+}
+.pet button{
+    text-decoration: none;
+    border: 10%;
+}
+.sub-pets-menu{
+    display: flex;
+    flex-direction: column;
+}

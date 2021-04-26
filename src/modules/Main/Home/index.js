@@ -1,11 +1,15 @@
 import React from 'react'
+import MainSlider from './Slider/MainSlider';
+import './index.css'
+import NewsMain from './News/news';
 
 class Home extends React.Component{
     render(){
         return(
-            <>
-                <h1>Главная</h1>
-            </>
+            <div className = 'main'>
+                <MainSlider/>
+                <NewsMain/>
+            </div>
         )
     }
 }

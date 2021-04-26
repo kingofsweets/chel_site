@@ -7,7 +7,7 @@ class Header extends React.Component{
     render(){
         return(
             <header>
-                <img src="https://sun9-46.userapi.com/impf/c639121/v639121237/6030c/4-hSKU1k5ZM.jpg?size=1300x1300&quality=96&sign=12b43b7b8251962a7169e028159cf9f7&type=album" alt=""/>
+                <img src="https://sun9-8.userapi.com/impg/xGZDQoPRMuihw9NgagiCQNRUVDpmplzR-CbrDA/X8BCqlQ15Ao.jpg?size=1300x1300&quality=96&sign=76f3ccafc7f84417a35392e68b463524&type=album" alt=""/>
                 <h1>"Шанс" - Фонд помощи бездомным животным</h1>
                 <div className = 'main-menu'>
                     <Link to = '/'>Главная</Link>

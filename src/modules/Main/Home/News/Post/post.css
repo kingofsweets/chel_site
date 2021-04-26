@@ -1,0 +1,14 @@
+.post{
+    padding: 5%;
+    margin:7% ;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.post h1{
+    font-family: 'Comfortaa', cursive;
+}
